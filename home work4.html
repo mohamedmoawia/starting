@@ -1,0 +1,42 @@
+<html> 
+<head> 
+<script> 
+
+
+
+
+
+var x='#' ; 
+var row ; 
+var col ; 
+var numofrows = prompt("enter a number :");
+ document.write(  numofrows ) ; 
+ document.write("<br> </br>") ;
+document.write("<div id='edit'>") ; 
+ 
+for (row=1;row<=numofrows;row++) 
+{
+for ( col=1 ; col<=row ; col++) 
+{
+ document.write(  x ) ;
+}
+ document.write("<br> </br>") ; 
+}
+document.write("</div>") ;
+ 
+ </script>
+<style> 
+      
+                #edit 
+				{
+                    display : flex ; 
+					justify-content : center ;					; 
+					color : red; 
+                }
+            
+</style>
+
+ </head> 
+<body>
+</body>
+</html>
